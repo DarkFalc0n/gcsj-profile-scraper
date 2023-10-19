@@ -39,5 +39,9 @@
   ```
   pnpm dev
   ```
+- All scraped data will be used to update the Mongo Database, you can then use that data to create your own leaderboard.
+- You can create a cronjob to automate the scraping once every 30 mins - 1 hour.
+
+ENJOY 😉☕
 
 ## ![MIT License](https://img.shields.io/badge/MIT-License-green?style=for-the-badge)
