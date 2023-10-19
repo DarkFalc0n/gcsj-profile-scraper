@@ -1,5 +1,7 @@
 # Google Cloud Study Jam Profile Scraper
 
+![Typescript](https://img.shields.io/badge/Typescript-yellow?style=for-the-badge&logo=typescript)
+
 ## About
 
 ![Study Jam Banner](https://lh3.googleusercontent.com/uu8RsBaxJVLl5pXc4O3y8SukFWWBMJJECEd_0K01uKKMRzCn3DjrHmElSnhJd96ap8OUVDzvJ8XdHK3KFhRW8g=w02400)
@@ -38,4 +40,4 @@
   pnpm dev
   ```
 
-## [📃MIT License](https://opensource.org/license/mit/)
+## ![MIT License](https://img.shields.io/badge/MIT-License-green?style=for-the-badge)
