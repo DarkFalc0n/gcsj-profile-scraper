@@ -9,6 +9,33 @@
 ## How to use
 
 - Clone the repository in your desired directory
-- Store one of your daily report csv file in the `./src/data` directory _<br>(Don't worry, you only need to do this once, this is required to fetch the public badge profile URLs)_
+- Store the public profile URLs in the `./src/data` directory as `input.csv` _<br>(Don't worry, you only need to do this once, this is required to fetch the public badge profile URLs)_
+- **(IMPORTANT!)** The CSV must be formatted as below with the two fields: `Student Name` and `Profile URL`  <br>
+  ![image](https://github.com/DarkFalc0n/gcsj-profile-scraper/assets/59203815/26fa5e5f-ff67-4ed6-afb0-4ac120365bc6)
+- Create your own `.env` and store your own MongoDB Atlas URI there. _(See `.env.example`)_
+- Install the `node_modules` with
+  ```
+  npm install
+  ```
+  or
+  ```
+  yarn install
+  ```
+  or
+  ```
+  pnpm install
+  ```
+- Run locally using
+  ```
+  npm run dev
+  ```
+  or
+  ```
+  yarn dev
+  ```
+  or
+  ```
+  pnpm dev
+  ```
 
 ## [📃MIT License](https://opensource.org/license/mit/)
