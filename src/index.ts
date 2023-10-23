@@ -22,7 +22,7 @@ Papa.parse(file.toString('utf8', 0), {
           collection.updateOne(
             {
               name: profileInfo.name,
-              _id: profileInfo._id,
+              _id: profileInfo._id as any,
             },
             { $set: profileInfo },
             { upsert: true }

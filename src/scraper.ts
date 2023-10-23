@@ -33,7 +33,7 @@ export const scraperPublicProfile = async (
       if (badgeType === 'genAI') {
         badgesInfo.genAIbadges += 1
       }
-      if (earnedOn > badgesInfo.lastBadgeDate) {
+      if (earnedOn > badgesInfo.lastBadgeDate && badgeType !== 'invalid') {
         badgesInfo.lastBadgeDate = earnedOn
       }
       if (
